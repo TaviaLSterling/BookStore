@@ -14,15 +14,9 @@ getItems() {
     return crt.getItems()
 }
 addMoney(type) {
-return crt.addMoney(type)
+return crt.addMoney()
 }
 }
-
-
-
-
-
-
 
 
 

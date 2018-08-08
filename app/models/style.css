@@ -1,4 +1,12 @@
-img {
+#products img {
     height:200px;
     width:100px;
 }
+#products {
+    display: flex;
+  }
+  
+  .products-item {
+    margin: 3%;
+    text-align: center;
+  }
