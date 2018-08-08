@@ -6,6 +6,11 @@ class Product {
         this.price = price || 0
         this.quantity = quantity || 0
     }
+    soldOut() {
+        if (this.quantity <= 0) {
+            return "Sold Out"
+        } 
+    }
 }
 
 

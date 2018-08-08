@@ -1,6 +1,12 @@
 
 
-import StoreService from "./app/components/StoreService.js"
+import StoreService from "./StoreService.js"
+
+class StoreController {
+    constructor(){
+        
+    }
+}
 
 
 
