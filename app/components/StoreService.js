@@ -1,19 +1,22 @@
-console.log("StoreService")
+import Product from "../models/Product.js"
 
+import Cart from "../models/Cart.js";
+const crt = new Cart
 class StoreService {
     constructor(){
-        
+
     }
+
+buyItem(itemIndex) {
+    return crt.buyItem(itemIndex)
 }
-
-
-import Product from "../models/Product.js"
-let apprentice = new Product("one","Assassin's Apprentice","//placehold.it/200x200",12,10)
-
-
-
-
-
+getItems() {
+    return crt.getItems()
+}
+addMoney(type) {
+return crt.addMoney(type)
+}
+}
 
 
 
