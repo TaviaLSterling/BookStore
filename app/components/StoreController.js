@@ -6,7 +6,7 @@ function drawTotal(total) {
     document.getElementById('total').innerText = total
 }
 function drawItems() {
-    let items = StoreService.getItems()
+    let items = storeService.getItems()
     let template = ''
     for (let i = 0; i < items.length; i++) {
         const item = items[i];
@@ -33,7 +33,7 @@ class StoreController {
         drawTotal(total)
     }
 }
-
+drawItems()
 
 
 
